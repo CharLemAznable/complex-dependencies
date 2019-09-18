@@ -6,7 +6,7 @@
 
     <groupId>com.github.charlemaznable</groupId>
     <artifactId>complex-dependencies</artifactId>
-    <version>0.2.0</version>
+    <version>0.2.1</version>
     <packaging>pom</packaging>
 
     <name>Complex Dependencies</name>
@@ -52,16 +52,16 @@
         <java.version>1.8</java.version>
 
         <commons-lang3.version>3.9</commons-lang3.version>
-        <complex-kits.version>0.9.0</complex-kits.version>
+        <complex-kits.version>0.9.1</complex-kits.version>
         <eql.version>0.1.13</eql.version>
         <druid.version>1.1.20</druid.version>
 
-        <lombok.version>1.18.8</lombok.version>
+        <lombok.version>1.18.10</lombok.version>
         <javax.servlet-api.version>4.0.1</javax.servlet-api.version>
         <spring.version>5.1.9.RELEASE</spring.version>
         <spring-boot.version>2.1.8.RELEASE</spring-boot.version>
 
-        <junit-jupiter-engine.version>5.5.1</junit-jupiter-engine.version>
+        <junit-jupiter-engine.version>5.5.2</junit-jupiter-engine.version>
 
         <asmvalidator.version>0.0.16</asmvalidator.version>
         <westcache.version>0.0.35</westcache.version>
