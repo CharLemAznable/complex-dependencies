@@ -6,7 +6,7 @@
 
     <groupId>com.github.charlemaznable</groupId>
     <artifactId>complex-dependencies</artifactId>
-    <version>0.2.3</version>
+    <version>0.2.4</version>
     <packaging>pom</packaging>
 
     <name>Complex Dependencies</name>
@@ -55,6 +55,7 @@
         <complex-kits.version>0.9.2</complex-kits.version>
         <eql.version>0.1.13</eql.version>
         <druid.version>1.1.20</druid.version>
+        <asm-all.version>5.2</asm-all.version>
 
         <lombok.version>1.18.10</lombok.version>
         <javax.servlet-api.version>4.0.1</javax.servlet-api.version>
@@ -104,6 +105,11 @@
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
             <version>${druid.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.ow2.asm</groupId>
+            <artifactId>asm-all</artifactId>
+            <version>${asm-all.version}</version>
         </dependency>
 
         <dependency>
