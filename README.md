@@ -3,7 +3,7 @@
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.charlemaznable/complex-dependencies/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.charlemaznable/complex-dependencies/)
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
 
-SpringBoot常用依赖.
+常用依赖.
 
 ##### Maven Parent
 
