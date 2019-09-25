@@ -11,6 +11,6 @@ SpringBoot常用依赖.
 <parent>
   <groupId>com.github.charlemaznable</groupId>
   <artifactId>complex-dependencies</artifactId>
-  <version>0.2.4</version>
+  <version>0.2.5</version>
 </parent>
 ```
