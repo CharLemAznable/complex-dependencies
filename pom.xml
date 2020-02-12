@@ -80,7 +80,7 @@
         <westid.version>0.0.3</westid.version>
         <h2.version>1.4.200</h2.version>
         <delayqueue.version>0.0.20</delayqueue.version>
-        <spring-boot.version>2.2.3.RELEASE</spring-boot.version>
+        <spring-boot.version>2.2.4.RELEASE</spring-boot.version>
 
         <maven-resources-plugin.version>3.1.0</maven-resources-plugin.version>
         <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
