@@ -6,7 +6,7 @@
 
     <groupId>com.github.charlemaznable</groupId>
     <artifactId>complex-dependencies</artifactId>
-    <version>0.4.2</version>
+    <version>0.4.3-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Complex Dependencies</name>
@@ -78,7 +78,7 @@
         <fastjson.version>1.2.67</fastjson.version>
         <auto-service.version>1.0-rc6</auto-service.version>
         <guice.version>4.2.3</guice.version>
-        <complex-kits.version>0.11.2</complex-kits.version>
+        <complex-kits.version>0.11.3-SNAPSHOT</complex-kits.version>
 
         <lombok.version>1.18.12</lombok.version>
         <javax.servlet-api.version>4.0.1</javax.servlet-api.version>
