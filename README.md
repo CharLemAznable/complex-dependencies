@@ -11,7 +11,7 @@
 <parent>
   <groupId>com.github.charlemaznable</groupId>
   <artifactId>complex-dependencies</artifactId>
-  <version>0.4.7</version>
+  <version>0.4.8</version>
 </parent>
 ```
 
@@ -21,6 +21,6 @@
 <parent>
   <groupId>com.github.charlemaznable</groupId>
   <artifactId>complex-dependencies</artifactId>
-  <version>0.4.8-SNAPSHOT</version>
+  <version>0.4.9-SNAPSHOT</version>
 </parent>
 ```
