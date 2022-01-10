@@ -90,7 +90,8 @@
         <okhttp.version>3.14.9</okhttp.version><!-- from spring-boot 2.6.2 -->
         <vertx.version>4.2.3</vertx.version>
 
-        <logback-classic.version>1.2.10</logback-classic.version>
+        <gentle-boot.version>0.0.5-SNAPSHOT</gentle-boot.version>
+        <logback.version>1.2.10</logback.version>
         <logback-miner-annotations.version>0.1.5-SNAPSHOT</logback-miner-annotations.version>
         <logback-miner.version>0.1.5-SNAPSHOT</logback-miner.version>
         <eql.version>0.1.14</eql.version>
@@ -245,9 +246,15 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
+                <groupId>com.github.charlemaznable</groupId>
+                <artifactId>gentle-boot</artifactId>
+                <version>${gentle-boot.version}</version>
+            </dependency>
+
+            <dependency>
                 <groupId>ch.qos.logback</groupId>
                 <artifactId>logback-classic</artifactId>
-                <version>${logback-classic.version}</version>
+                <version>${logback.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.charlemaznable</groupId>
