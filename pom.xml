@@ -32,6 +32,7 @@
         <gentle-factory.version>0.0.5-SNAPSHOT</gentle-factory.version>
         <complex-kits.version>0.12.5-SNAPSHOT</complex-kits.version>
         <gentle-boot.version>0.0.5-SNAPSHOT</gentle-boot.version>
+        <logback-miner-cloud-extension.version>0.0.5-SNAPSHOT</logback-miner-cloud-extension.version>
         <embedded-mysql-extension.version>0.0.5-SNAPSHOT</embedded-mysql-extension.version>
     </properties>
 
@@ -114,6 +115,11 @@
                 <groupId>com.github.charlemaznable</groupId>
                 <artifactId>gentle-boot</artifactId>
                 <version>${gentle-boot.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.charlemaznable</groupId>
+                <artifactId>logback-miner-cloud-extension</artifactId>
+                <version>${logback-miner-cloud-extension.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.charlemaznable</groupId>
