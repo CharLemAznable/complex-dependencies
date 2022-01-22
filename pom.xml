@@ -7,11 +7,11 @@
     <parent>
         <groupId>com.github.charlemaznable</groupId>
         <artifactId>char-dependencies</artifactId>
-        <version>0.0.5-SNAPSHOT</version>
+        <version>0.0.6-SNAPSHOT</version>
     </parent>
 
     <artifactId>complex-dependencies</artifactId>
-    <version>0.5.5-SNAPSHOT</version>
+    <version>0.5.6-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Complex Dependencies</name>
@@ -25,15 +25,15 @@
     </scm>
 
     <properties>
-        <vertx-diamond-config.version>0.1.5-SNAPSHOT</vertx-diamond-config.version>
-        <logback-miner-annotations.version>0.1.5-SNAPSHOT</logback-miner-annotations.version>
-        <logback-miner.version>0.1.5-SNAPSHOT</logback-miner.version>
-        <gentle-factory-annotations.version>0.0.5-SNAPSHOT</gentle-factory-annotations.version>
-        <gentle-factory.version>0.0.5-SNAPSHOT</gentle-factory.version>
-        <complex-kits.version>0.12.5-SNAPSHOT</complex-kits.version>
-        <gentle-boot.version>0.0.5-SNAPSHOT</gentle-boot.version>
-        <embedded-mysql-extension.version>0.0.5-SNAPSHOT</embedded-mysql-extension.version>
-        <logback-miner-cloud-extension.version>0.0.5-SNAPSHOT</logback-miner-cloud-extension.version>
+        <vertx-diamond-config.version>0.1.6-SNAPSHOT</vertx-diamond-config.version>
+        <logback-miner-annotations.version>0.1.6-SNAPSHOT</logback-miner-annotations.version>
+        <logback-miner.version>0.1.6-SNAPSHOT</logback-miner.version>
+        <gentle-factory-annotations.version>0.0.6-SNAPSHOT</gentle-factory-annotations.version>
+        <gentle-factory.version>0.0.6-SNAPSHOT</gentle-factory.version>
+        <complex-kits.version>0.12.6-SNAPSHOT</complex-kits.version>
+        <gentle-boot.version>0.0.6-SNAPSHOT</gentle-boot.version>
+        <embedded-mysql-extension.version>0.0.6-SNAPSHOT</embedded-mysql-extension.version>
+        <logback-miner-cloud-extension.version>0.0.6-SNAPSHOT</logback-miner-cloud-extension.version>
     </properties>
 
     <dependencies>
