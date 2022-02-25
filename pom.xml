@@ -24,14 +24,36 @@
         <url>https://github.com/CharLemAznable/complex-dependencies</url>
     </scm>
 
+    <repositories>
+        <repository>
+            <id>central</id>
+            <url>https://repo1.maven.org/maven2/</url>
+            <layout>default</layout>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>sonatype</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+            <layout>default</layout>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+        </repository>
+    </repositories>
+
     <properties>
+        <char-elves.version>0.0.6-SNAPSHOT</char-elves.version>
         <vertx-diamond-config.version>0.1.6-SNAPSHOT</vertx-diamond-config.version>
+        <es-diamond-config.version>0.0.6-SNAPSHOT</es-diamond-config.version>
         <logback-miner-annotations.version>0.1.6-SNAPSHOT</logback-miner-annotations.version>
         <logback-miner.version>0.1.6-SNAPSHOT</logback-miner.version>
+        <char-miner.version>0.0.6-SNAPSHOT</char-miner.version>
+        <char-httpclient.version>0.0.6-SNAPSHOT</char-httpclient.version>
         <gentle-factory-annotations.version>0.0.6-SNAPSHOT</gentle-factory-annotations.version>
         <gentle-factory.version>0.0.6-SNAPSHOT</gentle-factory.version>
-        <complex-kits.version>0.12.6-SNAPSHOT</complex-kits.version>
-        <gentle-boot.version>0.0.6-SNAPSHOT</gentle-boot.version>
         <embedded-mysql-extension.version>0.0.6-SNAPSHOT</embedded-mysql-extension.version>
         <logback-miner-cloud-extension.version>0.0.6-SNAPSHOT</logback-miner-cloud-extension.version>
     </properties>
@@ -39,11 +61,19 @@
     <dependencies>
         <dependency>
             <groupId>com.github.charlemaznable</groupId>
-            <artifactId>gentle-factory</artifactId>
+            <artifactId>char-elves</artifactId>
         </dependency>
         <dependency>
             <groupId>com.github.charlemaznable</groupId>
-            <artifactId>complex-kits</artifactId>
+            <artifactId>char-miner</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.github.charlemaznable</groupId>
+            <artifactId>char-httpclient</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.github.charlemaznable</groupId>
+            <artifactId>gentle-factory</artifactId>
         </dependency>
 
         <dependency>
@@ -83,8 +113,18 @@
         <dependencies>
             <dependency>
                 <groupId>com.github.charlemaznable</groupId>
+                <artifactId>char-elves</artifactId>
+                <version>${char-elves.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.charlemaznable</groupId>
                 <artifactId>vertx-diamond-config</artifactId>
                 <version>${vertx-diamond-config.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.charlemaznable</groupId>
+                <artifactId>es-diamond-config</artifactId>
+                <version>${es-diamond-config.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.charlemaznable</groupId>
@@ -98,6 +138,16 @@
             </dependency>
             <dependency>
                 <groupId>com.github.charlemaznable</groupId>
+                <artifactId>char-miner</artifactId>
+                <version>${char-miner.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.charlemaznable</groupId>
+                <artifactId>char-httpclient</artifactId>
+                <version>${char-httpclient.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.charlemaznable</groupId>
                 <artifactId>gentle-factory-annotations</artifactId>
                 <version>${gentle-factory-annotations.version}</version>
             </dependency>
@@ -108,19 +158,8 @@
             </dependency>
             <dependency>
                 <groupId>com.github.charlemaznable</groupId>
-                <artifactId>complex-kits</artifactId>
-                <version>${complex-kits.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.github.charlemaznable</groupId>
-                <artifactId>gentle-boot</artifactId>
-                <version>${gentle-boot.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.github.charlemaznable</groupId>
                 <artifactId>embedded-mysql-extension</artifactId>
                 <version>${embedded-mysql-extension.version}</version>
-                <scope>test</scope>
             </dependency>
             <dependency>
                 <groupId>com.github.charlemaznable</groupId>
