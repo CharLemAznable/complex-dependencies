@@ -46,16 +46,16 @@
 
     <properties>
         <char-elves.version>0.0.6-SNAPSHOT</char-elves.version>
-        <vertx-diamond-config.version>0.1.6-SNAPSHOT</vertx-diamond-config.version>
-        <es-diamond-config.version>0.0.6-SNAPSHOT</es-diamond-config.version>
-        <logback-miner-annotations.version>0.1.6-SNAPSHOT</logback-miner-annotations.version>
-        <logback-miner.version>0.1.6-SNAPSHOT</logback-miner.version>
-        <char-miner.version>0.0.6-SNAPSHOT</char-miner.version>
         <char-httpclient.version>0.0.6-SNAPSHOT</char-httpclient.version>
-        <gentle-factory-annotations.version>0.0.6-SNAPSHOT</gentle-factory-annotations.version>
-        <gentle-factory.version>0.0.6-SNAPSHOT</gentle-factory.version>
+        <char-miner.version>0.0.6-SNAPSHOT</char-miner.version>
         <embedded-mysql-extension.version>0.0.6-SNAPSHOT</embedded-mysql-extension.version>
+        <es-diamond-config.version>0.0.6-SNAPSHOT</es-diamond-config.version>
+        <gentle-factory.version>0.0.6-SNAPSHOT</gentle-factory.version>
+        <gentle-factory-annotations.version>0.0.6-SNAPSHOT</gentle-factory-annotations.version>
+        <logback-miner.version>0.1.6-SNAPSHOT</logback-miner.version>
+        <logback-miner-annotations.version>0.1.6-SNAPSHOT</logback-miner-annotations.version>
         <logback-miner-cloud-extension.version>0.0.6-SNAPSHOT</logback-miner-cloud-extension.version>
+        <vertx-diamond-config.version>0.1.6-SNAPSHOT</vertx-diamond-config.version>
     </properties>
 
     <dependencies>
@@ -65,17 +65,16 @@
         </dependency>
         <dependency>
             <groupId>com.github.charlemaznable</groupId>
-            <artifactId>char-miner</artifactId>
+            <artifactId>char-httpclient</artifactId>
         </dependency>
         <dependency>
             <groupId>com.github.charlemaznable</groupId>
-            <artifactId>char-httpclient</artifactId>
+            <artifactId>char-miner</artifactId>
         </dependency>
         <dependency>
             <groupId>com.github.charlemaznable</groupId>
             <artifactId>gentle-factory</artifactId>
         </dependency>
-
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
@@ -102,16 +101,6 @@
             <artifactId>vertx-junit5</artifactId>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>io.vertx</groupId>
-            <artifactId>vertx-rx-java</artifactId>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>io.vertx</groupId>
-            <artifactId>vertx-rx-java2</artifactId>
-            <scope>test</scope>
-        </dependency>
     </dependencies>
 
     <dependencyManagement>
@@ -123,23 +112,8 @@
             </dependency>
             <dependency>
                 <groupId>com.github.charlemaznable</groupId>
-                <artifactId>vertx-diamond-config</artifactId>
-                <version>${vertx-diamond-config.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.github.charlemaznable</groupId>
-                <artifactId>es-diamond-config</artifactId>
-                <version>${es-diamond-config.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.github.charlemaznable</groupId>
-                <artifactId>logback-miner-annotations</artifactId>
-                <version>${logback-miner-annotations.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.github.charlemaznable</groupId>
-                <artifactId>logback-miner</artifactId>
-                <version>${logback-miner.version}</version>
+                <artifactId>char-httpclient</artifactId>
+                <version>${char-httpclient.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.charlemaznable</groupId>
@@ -148,13 +122,13 @@
             </dependency>
             <dependency>
                 <groupId>com.github.charlemaznable</groupId>
-                <artifactId>char-httpclient</artifactId>
-                <version>${char-httpclient.version}</version>
+                <artifactId>embedded-mysql-extension</artifactId>
+                <version>${embedded-mysql-extension.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.charlemaznable</groupId>
-                <artifactId>gentle-factory-annotations</artifactId>
-                <version>${gentle-factory-annotations.version}</version>
+                <artifactId>es-diamond-config</artifactId>
+                <version>${es-diamond-config.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.charlemaznable</groupId>
@@ -163,13 +137,28 @@
             </dependency>
             <dependency>
                 <groupId>com.github.charlemaznable</groupId>
-                <artifactId>embedded-mysql-extension</artifactId>
-                <version>${embedded-mysql-extension.version}</version>
+                <artifactId>gentle-factory-annotations</artifactId>
+                <version>${gentle-factory-annotations.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.charlemaznable</groupId>
+                <artifactId>logback-miner</artifactId>
+                <version>${logback-miner.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.charlemaznable</groupId>
+                <artifactId>logback-miner-annotations</artifactId>
+                <version>${logback-miner-annotations.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.charlemaznable</groupId>
                 <artifactId>logback-miner-cloud-extension</artifactId>
                 <version>${logback-miner-cloud-extension.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.charlemaznable</groupId>
+                <artifactId>vertx-diamond-config</artifactId>
+                <version>${vertx-diamond-config.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
