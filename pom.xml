@@ -7,11 +7,11 @@
     <parent>
         <groupId>com.github.charlemaznable</groupId>
         <artifactId>char-dependencies</artifactId>
-        <version>0.0.6-SNAPSHOT</version>
+        <version>0.0.7-SNAPSHOT</version>
     </parent>
 
     <artifactId>complex-dependencies</artifactId>
-    <version>0.5.6-SNAPSHOT</version>
+    <version>0.5.7-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Complex Dependencies</name>
@@ -45,17 +45,17 @@
     </repositories>
 
     <properties>
-        <char-elves.version>0.0.6-SNAPSHOT</char-elves.version>
-        <char-httpclient.version>0.0.6-SNAPSHOT</char-httpclient.version>
-        <char-miner.version>0.0.6-SNAPSHOT</char-miner.version>
-        <embedded-mysql-extension.version>0.0.6-SNAPSHOT</embedded-mysql-extension.version>
-        <es-diamond-config.version>0.0.6-SNAPSHOT</es-diamond-config.version>
-        <gentle-factory.version>0.0.6-SNAPSHOT</gentle-factory.version>
-        <gentle-factory-annotations.version>0.0.6-SNAPSHOT</gentle-factory-annotations.version>
-        <logback-miner.version>0.1.6-SNAPSHOT</logback-miner.version>
-        <logback-miner-annotations.version>0.1.6-SNAPSHOT</logback-miner-annotations.version>
-        <logback-miner-cloud-extension.version>0.0.6-SNAPSHOT</logback-miner-cloud-extension.version>
-        <vertx-diamond-config.version>0.1.6-SNAPSHOT</vertx-diamond-config.version>
+        <char-elves.version>0.0.7-SNAPSHOT</char-elves.version>
+        <char-httpclient.version>0.0.7-SNAPSHOT</char-httpclient.version>
+        <char-miner.version>0.0.7-SNAPSHOT</char-miner.version>
+        <embedded-mysql-extension.version>0.0.7-SNAPSHOT</embedded-mysql-extension.version>
+        <es-diamond-config.version>0.0.7-SNAPSHOT</es-diamond-config.version>
+        <gentle-factory.version>0.0.7-SNAPSHOT</gentle-factory.version>
+        <gentle-factory-annotations.version>0.0.7-SNAPSHOT</gentle-factory-annotations.version>
+        <logback-miner.version>0.1.7-SNAPSHOT</logback-miner.version>
+        <logback-miner-annotations.version>0.1.7-SNAPSHOT</logback-miner-annotations.version>
+        <logback-miner-cloud-extension.version>0.0.7-SNAPSHOT</logback-miner-cloud-extension.version>
+        <vertx-diamond-config.version>0.1.7-SNAPSHOT</vertx-diamond-config.version>
     </properties>
 
     <dependencies>
