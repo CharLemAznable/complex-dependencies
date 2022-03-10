@@ -45,20 +45,28 @@
     </repositories>
 
     <properties>
+        <apollo-mockserver.version>0.0.7-SNAPSHOT</apollo-mockserver.version>
+        <char-configservice.version>0.0.7-SNAPSHOT</char-configservice.version>
         <char-elves.version>0.0.7-SNAPSHOT</char-elves.version>
         <char-httpclient.version>0.0.7-SNAPSHOT</char-httpclient.version>
-        <char-miner.version>0.0.7-SNAPSHOT</char-miner.version>
         <embedded-mysql-extension.version>0.0.7-SNAPSHOT</embedded-mysql-extension.version>
-        <es-diamond-config.version>0.0.7-SNAPSHOT</es-diamond-config.version>
+        <eql-apollo.version>0.0.7-SNAPSHOT</eql-apollo.version>
+        <es-config-elves.version>0.0.7-SNAPSHOT</es-config-elves.version>
         <gentle-factory.version>0.0.7-SNAPSHOT</gentle-factory.version>
         <gentle-factory-annotations.version>0.0.7-SNAPSHOT</gentle-factory-annotations.version>
-        <logback-miner.version>0.1.7-SNAPSHOT</logback-miner.version>
-        <logback-miner-annotations.version>0.1.7-SNAPSHOT</logback-miner-annotations.version>
-        <logback-miner-cloud-extension.version>0.0.7-SNAPSHOT</logback-miner-cloud-extension.version>
-        <vertx-diamond-config.version>0.1.7-SNAPSHOT</vertx-diamond-config.version>
+        <logback-dendrobe.version>0.1.7-SNAPSHOT</logback-dendrobe.version>
+        <logback-dendrobe-annotations.version>0.1.7-SNAPSHOT</logback-dendrobe-annotations.version>
+        <logback-dendrobe-apollo.version>0.1.7-SNAPSHOT</logback-dendrobe-apollo.version>
+        <logback-dendrobe-cloud.version>0.0.7-SNAPSHOT</logback-dendrobe-cloud.version>
+        <logback-dendrobe-diamond.version>0.1.7-SNAPSHOT</logback-dendrobe-diamond.version>
+        <vertx-config-elves.version>0.1.7-SNAPSHOT</vertx-config-elves.version>
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>com.github.charlemaznable</groupId>
+            <artifactId>char-configservice</artifactId>
+        </dependency>
         <dependency>
             <groupId>com.github.charlemaznable</groupId>
             <artifactId>char-elves</artifactId>
@@ -66,10 +74,6 @@
         <dependency>
             <groupId>com.github.charlemaznable</groupId>
             <artifactId>char-httpclient</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.github.charlemaznable</groupId>
-            <artifactId>char-miner</artifactId>
         </dependency>
         <dependency>
             <groupId>com.github.charlemaznable</groupId>
@@ -107,6 +111,16 @@
         <dependencies>
             <dependency>
                 <groupId>com.github.charlemaznable</groupId>
+                <artifactId>apollo-mockserver</artifactId>
+                <version>${apollo-mockserver.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.charlemaznable</groupId>
+                <artifactId>char-configservice</artifactId>
+                <version>${char-configservice.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.charlemaznable</groupId>
                 <artifactId>char-elves</artifactId>
                 <version>${char-elves.version}</version>
             </dependency>
@@ -117,18 +131,18 @@
             </dependency>
             <dependency>
                 <groupId>com.github.charlemaznable</groupId>
-                <artifactId>char-miner</artifactId>
-                <version>${char-miner.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.github.charlemaznable</groupId>
                 <artifactId>embedded-mysql-extension</artifactId>
                 <version>${embedded-mysql-extension.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.charlemaznable</groupId>
-                <artifactId>es-diamond-config</artifactId>
-                <version>${es-diamond-config.version}</version>
+                <artifactId>eql-apollo</artifactId>
+                <version>${eql-apollo.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.charlemaznable</groupId>
+                <artifactId>es-config-elves</artifactId>
+                <version>${es-config-elves.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.charlemaznable</groupId>
@@ -142,23 +156,33 @@
             </dependency>
             <dependency>
                 <groupId>com.github.charlemaznable</groupId>
-                <artifactId>logback-miner</artifactId>
-                <version>${logback-miner.version}</version>
+                <artifactId>logback-dendrobe</artifactId>
+                <version>${logback-dendrobe.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.charlemaznable</groupId>
-                <artifactId>logback-miner-annotations</artifactId>
-                <version>${logback-miner-annotations.version}</version>
+                <artifactId>logback-dendrobe-annotations</artifactId>
+                <version>${logback-dendrobe-annotations.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.charlemaznable</groupId>
-                <artifactId>logback-miner-cloud-extension</artifactId>
-                <version>${logback-miner-cloud-extension.version}</version>
+                <artifactId>logback-dendrobe-apollo</artifactId>
+                <version>${logback-dendrobe-apollo.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.charlemaznable</groupId>
-                <artifactId>vertx-diamond-config</artifactId>
-                <version>${vertx-diamond-config.version}</version>
+                <artifactId>logback-dendrobe-cloud</artifactId>
+                <version>${logback-dendrobe-cloud.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.charlemaznable</groupId>
+                <artifactId>logback-dendrobe-diamond</artifactId>
+                <version>${logback-dendrobe-diamond.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.charlemaznable</groupId>
+                <artifactId>vertx-config-elves</artifactId>
+                <version>${vertx-config-elves.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
