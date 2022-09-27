@@ -7,11 +7,11 @@
     <parent>
         <groupId>com.github.charlemaznable</groupId>
         <artifactId>char-dependencies</artifactId>
-        <version>0.1.1-SNAPSHOT</version>
+        <version>0.1.2-SNAPSHOT</version>
     </parent>
 
     <artifactId>complex-dependencies</artifactId>
-    <version>0.6.1-SNAPSHOT</version>
+    <version>0.6.2-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Complex Dependencies</name>
@@ -45,21 +45,21 @@
     </repositories>
 
     <properties>
-        <apollo-mockserver.version>0.1.1-SNAPSHOT</apollo-mockserver.version>
-        <char-configservice.version>0.1.1-SNAPSHOT</char-configservice.version>
-        <char-elves.version>0.1.1-SNAPSHOT</char-elves.version>
-        <char-httpclient.version>0.1.1-SNAPSHOT</char-httpclient.version>
-        <embedded-mysql-extension.version>0.1.1-SNAPSHOT</embedded-mysql-extension.version>
-        <eql-apollo.version>0.1.1-SNAPSHOT</eql-apollo.version>
-        <es-config-elves.version>0.1.1-SNAPSHOT</es-config-elves.version>
-        <gentle-factory.version>0.1.1-SNAPSHOT</gentle-factory.version>
-        <gentle-factory-annotations.version>0.1.1-SNAPSHOT</gentle-factory-annotations.version>
-        <logback-dendrobe.version>0.2.1-SNAPSHOT</logback-dendrobe.version>
-        <logback-dendrobe-annotations.version>0.2.1-SNAPSHOT</logback-dendrobe-annotations.version>
-        <logback-dendrobe-apollo.version>0.2.1-SNAPSHOT</logback-dendrobe-apollo.version>
-        <logback-dendrobe-cloud.version>0.1.1-SNAPSHOT</logback-dendrobe-cloud.version>
-        <logback-dendrobe-diamond.version>0.2.1-SNAPSHOT</logback-dendrobe-diamond.version>
-        <vertx-config-elves.version>0.2.1-SNAPSHOT</vertx-config-elves.version>
+        <apollo-mockserver.version>0.1.2-SNAPSHOT</apollo-mockserver.version>
+        <char-configservice.version>0.1.2-SNAPSHOT</char-configservice.version>
+        <char-elves.version>0.1.2-SNAPSHOT</char-elves.version>
+        <char-httpclient.version>0.1.2-SNAPSHOT</char-httpclient.version>
+        <embedded-mysql-extension.version>0.1.2-SNAPSHOT</embedded-mysql-extension.version>
+        <eql-apollo.version>0.1.2-SNAPSHOT</eql-apollo.version>
+        <es-config-elves.version>0.1.2-SNAPSHOT</es-config-elves.version>
+        <gentle-factory.version>0.1.2-SNAPSHOT</gentle-factory.version>
+        <gentle-factory-annotations.version>0.1.2-SNAPSHOT</gentle-factory-annotations.version>
+        <logback-dendrobe.version>0.2.2-SNAPSHOT</logback-dendrobe.version>
+        <logback-dendrobe-annotations.version>0.2.2-SNAPSHOT</logback-dendrobe-annotations.version>
+        <logback-dendrobe-apollo.version>0.2.2-SNAPSHOT</logback-dendrobe-apollo.version>
+        <logback-dendrobe-cloud.version>0.1.2-SNAPSHOT</logback-dendrobe-cloud.version>
+        <logback-dendrobe-diamond.version>0.2.2-SNAPSHOT</logback-dendrobe-diamond.version>
+        <vertx-config-elves.version>0.2.2-SNAPSHOT</vertx-config-elves.version>
     </properties>
 
     <dependencies>
