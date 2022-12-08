@@ -48,7 +48,7 @@
         <apollo-mockserver.version>2022.0.2-SNAPSHOT</apollo-mockserver.version>
         <blossom.version>2022.0.2-SNAPSHOT</blossom.version>
         <blossom-aspect.version>2022.0.2-SNAPSHOT</blossom-aspect.version>
-        <blossom-lobmok.version>2022.0.2-SNAPSHOT</blossom-lobmok.version>
+        <blossom-lombok.version>2022.0.2-SNAPSHOT</blossom-lombok.version>
         <char-configservice.version>2022.0.2-SNAPSHOT</char-configservice.version>
         <char-elves.version>2022.0.2-SNAPSHOT</char-elves.version>
         <char-httpclient.version>2022.0.2-SNAPSHOT</char-httpclient.version>
