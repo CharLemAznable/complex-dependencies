@@ -46,6 +46,9 @@
 
     <properties>
         <apollo-mockserver.version>2022.0.2-SNAPSHOT</apollo-mockserver.version>
+        <blossom.version>2022.0.2-SNAPSHOT</blossom.version>
+        <blossom-aspect.version>2022.0.2-SNAPSHOT</blossom-aspect.version>
+        <blossom-lobmok.version>2022.0.2-SNAPSHOT</blossom-lobmok.version>
         <char-configservice.version>2022.0.2-SNAPSHOT</char-configservice.version>
         <char-elves.version>2022.0.2-SNAPSHOT</char-elves.version>
         <char-httpclient.version>2022.0.2-SNAPSHOT</char-httpclient.version>
@@ -113,6 +116,21 @@
                 <groupId>com.github.charlemaznable</groupId>
                 <artifactId>apollo-mockserver</artifactId>
                 <version>${apollo-mockserver.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.charlemaznable</groupId>
+                <artifactId>blossom</artifactId>
+                <version>${blossom.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.charlemaznable</groupId>
+                <artifactId>blossom-aspect</artifactId>
+                <version>${blossom-aspect.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.charlemaznable</groupId>
+                <artifactId>blossom-lombok</artifactId>
+                <version>${blossom-lombok.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.charlemaznable</groupId>
