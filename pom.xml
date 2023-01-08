@@ -59,7 +59,6 @@
         <logback-dendrobe.version>2022.0.3-SNAPSHOT</logback-dendrobe.version>
         <logback-dendrobe-annotations.version>2022.0.3-SNAPSHOT</logback-dendrobe-annotations.version>
         <logback-dendrobe-apollo.version>2022.0.3-SNAPSHOT</logback-dendrobe-apollo.version>
-        <logback-dendrobe-cloud.version>2022.0.3-SNAPSHOT</logback-dendrobe-cloud.version>
         <logback-dendrobe-diamond.version>2022.0.3-SNAPSHOT</logback-dendrobe-diamond.version>
         <vertx-config-elves.version>2022.0.3-SNAPSHOT</vertx-config-elves.version>
     </properties>
@@ -180,11 +179,6 @@
                 <groupId>com.github.charlemaznable</groupId>
                 <artifactId>logback-dendrobe-apollo</artifactId>
                 <version>${logback-dendrobe-apollo.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.github.charlemaznable</groupId>
-                <artifactId>logback-dendrobe-cloud</artifactId>
-                <version>${logback-dendrobe-cloud.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.charlemaznable</groupId>
