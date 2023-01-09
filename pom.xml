@@ -53,14 +53,12 @@
         <char-elves.version>2022.0.3-SNAPSHOT</char-elves.version>
         <char-httpclient.version>2022.0.3-SNAPSHOT</char-httpclient.version>
         <eql-apollo.version>2022.0.3-SNAPSHOT</eql-apollo.version>
-        <es-config-elves.version>2022.0.3-SNAPSHOT</es-config-elves.version>
         <gentle-factory.version>2022.0.3-SNAPSHOT</gentle-factory.version>
         <gentle-factory-annotations.version>2022.0.3-SNAPSHOT</gentle-factory-annotations.version>
         <logback-dendrobe.version>2022.0.3-SNAPSHOT</logback-dendrobe.version>
         <logback-dendrobe-annotations.version>2022.0.3-SNAPSHOT</logback-dendrobe-annotations.version>
         <logback-dendrobe-apollo.version>2022.0.3-SNAPSHOT</logback-dendrobe-apollo.version>
         <logback-dendrobe-diamond.version>2022.0.3-SNAPSHOT</logback-dendrobe-diamond.version>
-        <vertx-config-elves.version>2022.0.3-SNAPSHOT</vertx-config-elves.version>
     </properties>
 
     <dependencies>
@@ -152,11 +150,6 @@
             </dependency>
             <dependency>
                 <groupId>com.github.charlemaznable</groupId>
-                <artifactId>es-config-elves</artifactId>
-                <version>${es-config-elves.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.github.charlemaznable</groupId>
                 <artifactId>gentle-factory</artifactId>
                 <version>${gentle-factory.version}</version>
             </dependency>
@@ -184,11 +177,6 @@
                 <groupId>com.github.charlemaznable</groupId>
                 <artifactId>logback-dendrobe-diamond</artifactId>
                 <version>${logback-dendrobe-diamond.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.github.charlemaznable</groupId>
-                <artifactId>vertx-config-elves</artifactId>
-                <version>${vertx-config-elves.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
