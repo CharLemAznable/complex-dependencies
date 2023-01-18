@@ -53,15 +53,12 @@
         <char-elves.version>2023.0.0-SNAPSHOT</char-elves.version>
         <char-httpclient.version>2023.0.0-SNAPSHOT</char-httpclient.version>
         <eql-apollo.version>2023.0.0-SNAPSHOT</eql-apollo.version>
-        <es-config-elves.version>2023.0.0-SNAPSHOT</es-config-elves.version>
         <gentle-factory.version>2023.0.0-SNAPSHOT</gentle-factory.version>
         <gentle-factory-annotations.version>2023.0.0-SNAPSHOT</gentle-factory-annotations.version>
         <logback-dendrobe.version>2023.0.0-SNAPSHOT</logback-dendrobe.version>
         <logback-dendrobe-annotations.version>2023.0.0-SNAPSHOT</logback-dendrobe-annotations.version>
         <logback-dendrobe-apollo.version>2023.0.0-SNAPSHOT</logback-dendrobe-apollo.version>
-        <logback-dendrobe-cloud.version>2023.0.0-SNAPSHOT</logback-dendrobe-cloud.version>
         <logback-dendrobe-diamond.version>2023.0.0-SNAPSHOT</logback-dendrobe-diamond.version>
-        <vertx-config-elves.version>2023.0.0-SNAPSHOT</vertx-config-elves.version>
     </properties>
 
     <dependencies>
@@ -153,11 +150,6 @@
             </dependency>
             <dependency>
                 <groupId>com.github.charlemaznable</groupId>
-                <artifactId>es-config-elves</artifactId>
-                <version>${es-config-elves.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.github.charlemaznable</groupId>
                 <artifactId>gentle-factory</artifactId>
                 <version>${gentle-factory.version}</version>
             </dependency>
@@ -183,18 +175,8 @@
             </dependency>
             <dependency>
                 <groupId>com.github.charlemaznable</groupId>
-                <artifactId>logback-dendrobe-cloud</artifactId>
-                <version>${logback-dendrobe-cloud.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.github.charlemaznable</groupId>
                 <artifactId>logback-dendrobe-diamond</artifactId>
                 <version>${logback-dendrobe-diamond.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.github.charlemaznable</groupId>
-                <artifactId>vertx-config-elves</artifactId>
-                <version>${vertx-config-elves.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
