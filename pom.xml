@@ -7,11 +7,11 @@
     <parent>
         <groupId>com.github.charlemaznable</groupId>
         <artifactId>char-dependencies</artifactId>
-        <version>2023.0.4-SNAPSHOT</version>
+        <version>2023.0.5-SNAPSHOT</version>
     </parent>
 
     <artifactId>complex-dependencies</artifactId>
-    <version>2023.0.4-SNAPSHOT</version>
+    <version>2023.0.5-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Complex Dependencies</name>
@@ -45,20 +45,20 @@
     </repositories>
 
     <properties>
-        <apollo-mockserver.version>2023.0.4-SNAPSHOT</apollo-mockserver.version>
-        <blossom.version>2023.0.4-SNAPSHOT</blossom.version>
-        <blossom-aspect.version>2023.0.4-SNAPSHOT</blossom-aspect.version>
-        <blossom-lombok.version>2023.0.4-SNAPSHOT</blossom-lombok.version>
-        <char-configservice.version>2023.0.4-SNAPSHOT</char-configservice.version>
-        <char-elves.version>2023.0.4-SNAPSHOT</char-elves.version>
-        <char-httpclient.version>2023.0.4-SNAPSHOT</char-httpclient.version>
-        <eql-apollo.version>2023.0.4-SNAPSHOT</eql-apollo.version>
-        <gentle-factory.version>2023.0.4-SNAPSHOT</gentle-factory.version>
-        <gentle-factory-annotations.version>2023.0.4-SNAPSHOT</gentle-factory-annotations.version>
-        <logback-dendrobe.version>2023.0.4-SNAPSHOT</logback-dendrobe.version>
-        <logback-dendrobe-annotations.version>2023.0.4-SNAPSHOT</logback-dendrobe-annotations.version>
-        <logback-dendrobe-apollo.version>2023.0.4-SNAPSHOT</logback-dendrobe-apollo.version>
-        <logback-dendrobe-diamond.version>2023.0.4-SNAPSHOT</logback-dendrobe-diamond.version>
+        <apollo-mockserver.version>2023.0.5-SNAPSHOT</apollo-mockserver.version>
+        <blossom.version>2023.0.5-SNAPSHOT</blossom.version>
+        <blossom-aspect.version>2023.0.5-SNAPSHOT</blossom-aspect.version>
+        <blossom-lombok.version>2023.0.5-SNAPSHOT</blossom-lombok.version>
+        <char-configservice.version>2023.0.5-SNAPSHOT</char-configservice.version>
+        <char-elves.version>2023.0.5-SNAPSHOT</char-elves.version>
+        <char-httpclient.version>2023.0.5-SNAPSHOT</char-httpclient.version>
+        <eql-apollo.version>2023.0.5-SNAPSHOT</eql-apollo.version>
+        <gentle-factory.version>2023.0.5-SNAPSHOT</gentle-factory.version>
+        <gentle-factory-annotations.version>2023.0.5-SNAPSHOT</gentle-factory-annotations.version>
+        <logback-dendrobe.version>2023.0.5-SNAPSHOT</logback-dendrobe.version>
+        <logback-dendrobe-annotations.version>2023.0.5-SNAPSHOT</logback-dendrobe-annotations.version>
+        <logback-dendrobe-apollo.version>2023.0.5-SNAPSHOT</logback-dendrobe-apollo.version>
+        <logback-dendrobe-diamond.version>2023.0.5-SNAPSHOT</logback-dendrobe-diamond.version>
     </properties>
 
     <dependencies>
