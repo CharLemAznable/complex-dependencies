@@ -49,13 +49,15 @@
         <char-configservice.version>2023.1.2-SNAPSHOT</char-configservice.version>
         <char-elves.version>2023.1.2-SNAPSHOT</char-elves.version>
         <char-httpclient.version>2023.1.2-SNAPSHOT</char-httpclient.version>
-        <eql-apollo.version>2023.1.2-SNAPSHOT</eql-apollo.version>
+        <eql-extension.version>2023.1.2-SNAPSHOT</eql-extension.version>
+        <etcdconf-client.version>2023.1.2-SNAPSHOT</etcdconf-client.version>
         <gentle-factory.version>2023.1.2-SNAPSHOT</gentle-factory.version>
         <gentle-factory-annotations.version>2023.1.2-SNAPSHOT</gentle-factory-annotations.version>
         <logback-dendrobe.version>2023.1.2-SNAPSHOT</logback-dendrobe.version>
         <logback-dendrobe-annotations.version>2023.1.2-SNAPSHOT</logback-dendrobe-annotations.version>
         <logback-dendrobe-apollo.version>2023.1.2-SNAPSHOT</logback-dendrobe-apollo.version>
         <logback-dendrobe-diamond.version>2023.1.2-SNAPSHOT</logback-dendrobe-diamond.version>
+        <logback-dendrobe-etcd.version>2023.1.2-SNAPSHOT</logback-dendrobe-etcd.version>
     </properties>
 
     <dependencies>
@@ -127,8 +129,13 @@
             </dependency>
             <dependency>
                 <groupId>com.github.charlemaznable</groupId>
-                <artifactId>eql-apollo</artifactId>
-                <version>${eql-apollo.version}</version>
+                <artifactId>eql-extension</artifactId>
+                <version>${eql-extension.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.charlemaznable</groupId>
+                <artifactId>etcdconf-client</artifactId>
+                <version>${etcdconf-client.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.charlemaznable</groupId>
@@ -159,6 +166,11 @@
                 <groupId>com.github.charlemaznable</groupId>
                 <artifactId>logback-dendrobe-diamond</artifactId>
                 <version>${logback-dendrobe-diamond.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.charlemaznable</groupId>
+                <artifactId>logback-dendrobe-etcd</artifactId>
+                <version>${logback-dendrobe-etcd.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
